@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+
+
+.tytul{
+    color: black;
+    font-size: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: Copperplate;
+    width:100%;
+}
+
+.sidenav{
+    background-color:  rgb(239, 115, 13);
+}
+
+
+#belka {
+background-color: rgb(255, 157, 0);
+padding: 10pv;
+padding-bottom: 11.75%;
+
+}
+
+h1 {
+    font-size: 230px;
+    font-family: Copperplate;
+    text-align: center;
+    color: rgb(255, 157, 0);;
+
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 157, 0);
+    font-family: Copperplate;
+
+
+}
+
+#bok_link{
+    color:  rgb(255, 157, 0);
+    text-decoration: none;
+}
+
+#gora_link{
+    color: black;
+    text-decoration: none;
+
+}
+
+#bok_link:hover{
+    color: rgb(239, 115, 13);
+}
+
+#gora_link:hover{
+    color:rgb(54, 54, 54);
+}
+
+#menu_boczne {
+    float: left;
+    width: 20%;
+    padding-bottom: 19%;
+    background-color:  rgb(54, 54, 54);
+}
+
+#menu_gorne {
+    float:inline-start;
+    background-color: black;
+}
+
+#menu_paragraf{
+    color: rgb(255, 157, 0);
+
+}
+
+
+
+footer {
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 157, 0);
+    
+}
+
+#stopka{
+    color: black;
+}
+
+
+.obrazek{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .obrazek {
+      display: none;
+    }
+}
